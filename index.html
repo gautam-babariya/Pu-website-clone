@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parul University - Gujarat</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="leftside">
+                <div class="pulogo">
+                    <img class="logoimg" src="parullogo.png">
+                </div>
+                <div class="pulogo2">
+                    <img class="logoimg2" src="pulogo2.png">
+                </div>
+                <div class="tollno">
+                    <p class="boxcolor">Toll Free: 1800-123-1104</p>
+                </div>
+                <div class="tollno">
+                    <p class="boxcolor">Need Counselling</p>
+                </div>
+            </div>
+            <div class="ops">
+                <p class="selection">Home</p>
+                <p class="selection">Ranking</p>
+                <p class="selection">Placements</p>
+                <p class="selection">Programs offered</p>
+                <p class="selection">Life at PU</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="heropart">
+        <img class="heroimg" src="heroimg.jpg">
+        <div class="enquir-now">
+            <p>Enquire Now</p>
+        </div>
+        <div id="filldata">
+            <div class="titalfill">
+                <p class="titalfill-text">Enquire Now</p>
+            </div>
+            <div class="tital-content">
+                <input class="tital-content1" style="margin-top: 15px" type="text" placeholder="Name">
+                <input class="tital-content1" type="text" placeholder="Email">
+                <input class="tital-content1" type="text" placeholder="Phone Number">
+                <input class="tital-content1" type="text" placeholder="Select State">
+                <input class="tital-content1" type="text" placeholder="Select City">
+                <input class="tital-content1" type="text" placeholder="Select specialization">
+
+            </div>
+            <div class="capca">
+                <p class="capcha-cal">
+                    19 + 8 =
+                </p>
+                <input class="tital-content2" type="text" placeholder="captcha">
+                <img class="captcha-icon" src="load.svg">
+            </div>
+            <div class="submit">
+                <div class="submit-contain">
+                    <p>Submit and Download Brochure</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- puimg -->
+
+    <div class="puimg">
+        <div class="securefut">
+            <div class="securefut-text">
+                <div class="securefut-text-block">
+                    <p class="securefut-text1">Is Your Future Secure With Us?</p>
+                    <p class="securefut-text2">Well, These Marks of Excellence Speak For Us!</p>
+                </div>
+            </div>
+            <div class="archivement">
+                <div id="archive-box1">
+                    <img class="archive-box-panddu" src="silverpanddu.webp">
+                    <div class="archivement-nirf">
+                        <img id="nirflogo" src="pulogo2.png">
+                        <div id="nirf-text">
+                            <p><strong>All India TOP 200</strong> University
+                                Ranking
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="archive-box2">
+                    <img class="archive-box-panddu" src="silverpanddu.webp">
+                    <div class="archivement-gsirf">
+                        <img id="gsirflogo" src="GSIRF.webp">
+                        <div id="gsirf-text">
+                            <p> <b>4 out 5 Rating</b>
+                                By GSIRF Ranking Framework Among Leading
+                                Universities Statewide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="archive-box3">
+                    <img class="archive-box-panddu" src="silverpanddu.webp">
+                    <div class="archivement-ariia">
+                        <img id="ariialogo" src="ARIIA.webp">
+                        <div id="ariia-text">
+                            <p><b>Top 50 Ranking</b>
+                                Among Top Private Universities in India By Ministry of Education for Innovation
+                                Achievements under ARIIA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="archive-box4">
+                    <img class="archive-box-panddu" src="silverpanddu.webp">
+                    <div class="archivement-rajmudra">
+                        <img id="rajmudralogo" src="rajmudra.webp">
+                        <div id="rajmudra-text">
+                            <p><b>4 out 4 Rating </b>
+                                From Ministry of Education’s IIC, Government of India
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fullimg">
+        <img id="fullimg-contain" src="pufullimg.webp">
+    </div>
+    </div>
+
+    <script>
+        var enquirnow = document.querySelector(".enquir-now");
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                filldata.style.animationName = 'rightani';
+                filldata.style.animationDuration = '0.3s';
+                filldata.style.animationFillMode = 'forwards';
+                enquirnow.style.animationName = 'rightani2';
+                enquirnow.style.animationDuration = '0.3s';
+                enquirnow.style.animationFillMode = 'forwards';
+            }
+            else {
+                filldata.style.animationName = 'rightanirev';
+                filldata.style.animationDuration = '0.3s';
+                filldata.style.animationFillMode = 'forwards';
+                enquirnow.style.animationName = 'rightani2rev';
+                enquirnow.style.animationDuration = '0.3s';
+                enquirnow.style.animationFillMode = 'forwards';
+
+            }
+        });
+    </script>
+</body>
+
+</html>
