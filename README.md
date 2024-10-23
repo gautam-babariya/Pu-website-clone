@@ -26,4 +26,4 @@ To run this project locally, follow the steps below:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/parul-university-clone.git
+   git clone https://github.com/gautam-babariya/Pu-website-clone.git
